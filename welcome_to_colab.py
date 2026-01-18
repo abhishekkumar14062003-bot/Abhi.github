@@ -219,14 +219,6 @@ These are a few of the notebooks related to Machine Learning, including Google's
 - [Image Classification with KerasHub](https://keras.io/keras_hub/guides/classification_with_keras_hub/)
 """
 
-
-
-def fibonacci(n):
-    fib = [0, 1]
-    for i in range(2, n):
-        fib.append(fib[i-1] + fib[i-2])
-    return fib
-
-n = 12
-result = fibonacci(n)
-print(f"First {n} Fibonacci numbers: {result}")
+# Displaying "Hello World!" on the screen
+# print is a Python defined default function, we are simply using it here
+print("Hello World!")
